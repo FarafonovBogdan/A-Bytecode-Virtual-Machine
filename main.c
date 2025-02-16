@@ -3,7 +3,7 @@
 #include "debug.h"
 
 
-int main(int args,const char* argv []){
+int main(int args,const char* argv[]){
     Chunk chunk;
     initChunk(&chunk);
     writeChunk(&chunk, OP_RETURN);
